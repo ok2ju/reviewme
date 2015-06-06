@@ -1,0 +1,87 @@
+@import url("http://fonts.googleapis.com/css?family=Lobster");
+
+*{margin: 0; padding: 0;}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: "Open Sans", sans-serif;
+}
+
+#test {
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	background-color: #2ea5ec;
+}
+
+.intro {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+
+  left: 0;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translateX(0) translateY(-50%);
+}
+
+.intro h1 {
+  font-size: 85px;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  color: #fff;
+  font-family: 'Lobster', cursive;
+}
+
+.right-block {
+	width: 50%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	background-color: #fbfbfb;
+}
+
+.right-block-inner {
+	position: absolute;
+	top: 50%;
+	bottom: auto;
+	right: auto;
+	transform: translateX(0) translateY(-50%);
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.right-block-inner h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.right-block-inner p {
+	text-align: center;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.sign-btns {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.sign-btns a:first-child {
+	margin-right: 20px;
+}
+
+.right-block-inner .btn {
+	display: inline-block;
+	padding: 1em 1.4em 1em;
+	background: #2ea5ec;
+	font-size: 14px;
+	font-size: 1rem;
+	border-radius: .25em;
+	color: #fff;
+	text-decoration: none;
+}
